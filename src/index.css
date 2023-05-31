@@ -1,13 +1,156 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-color: 
+    #DDDDDD;
+}
+.sidebar{
+    
+    height: 100vh;
+    margin-bottom: 250px;
+    border-radius: 20px;
+
+}
+.icon{
+    font-size: 20px;
+}
+.Dashboard{
+    width: 1000px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+.Graph{
+    margin-top: 20px;
+}
+.heading h2{
+ 
+    margin-left: 25px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.heading p{
+    margin-left: 25px;
+}
+.subGraph{
+    display: flex;
+   gap: 20px;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 20px;
+  
+}
+.left{
+    width: 480px;
+    height: 256px;
+    border-radius: 20px;
+    background-color: white;
+   
+}
+.right{
+    width: 480px;
+    height: 256px;
+    border-radius: 20px;
+    background-color: white;
+   
+}
+.right h2{
+    font-weight: bold;
+    margin: 15px;
+}
+.left h2{
+    font-weight: bold;
+    margin: 15px;
+}
+.subtitle{
+    margin-left: 40px;
+    border-left: 4px solid #9BDD7C;
+    padding-left: 10px;
+}
+.subtitle1{
+    margin-left: 40px;
+    border-left: 4px solid #6972C3;
+    padding-left: 10px;
+}
+.title{
+    font-weight: bold;
+}
+.forms{
+    display: flex;
+}
+.container{
+    margin-left: 75px;
+    margin-top: 150px;
+    width: 400px;
+    height: 600px;
+    background-color: 
+    #F5F5F5;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+}
+.google{
+    display: flex;
+    width: 180px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+.google img{
+    width: 30px;
+    height: 20px;
+}
+.Apple{
+    display: flex;
+    width: 180px;
+    background-color: white;
+    border-radius: 5px;
+}
+.Apple img{
+    width: 20px;
+    height: 20px;
+}
+.left-form{
+width: 600px;
+height: 1000px;
+background-color: black;
+}
+.left-form h1{
+    color: white;
+    display: grid;
+    place-items: center;
+    margin-top: 200px;
+    font-size: 5rem;
+}
+.container h1{
+    padding-top: 100px;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.container .singin{
+    padding-left: 50px;
+}
+.main-form{
+margin-left: 20px;
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    padding: 30px;
+}
+.main-form input{
+    width: 80%;
+    background-color: #DDDDDD;
+    border-radius: 5px;
+}
+button{
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 70%;
 }
